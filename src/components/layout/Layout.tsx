@@ -3,11 +3,11 @@ import type { PropsWithChildren } from "react";
 export default function Layout({ children }: PropsWithChildren<unknown>) {
 	return (
 		<div>
-			<Sidebar />
+			{/* <Sidebar /> */}
 			<main>
 				{children}
 			</main>
-			<RightSidebar />
+			{/* <RightSidebar /> */}
 		</div>
 	)
 }
